@@ -6,15 +6,8 @@ info:
     All API requests require a knowledge base level API-Key in the Authorization HTTP Header.
   version: 1.5.0
 servers:
-  - url: 'https://api.dify.ai/v1'
-    description: Dify API Server
-  - url: '{api_url}'
-    variables:
-      api_url:
-        default: 'https://api.dify.ai/v1'
-        description: Custom API server URL
-  - url: 'http://ai.urchinet.lan/v1'
-    description: author of dify-openapi dev server
+  - url: 'https://api-dify-selfhosted.engineerforce.io/v1'
+    description: Dify Self-Hosted API Server
 security:
   - bearerApiKeyAuth: []
 tags:
